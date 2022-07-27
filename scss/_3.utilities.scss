@@ -1,0 +1,90 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.9;
+  max-width: 700px;
+  background-color: #dae2f9;
+  margin: auto;
+  background-color: #dae2f9;
+}
+
+.container {
+  width: 100%;
+  padding: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #efb8c8;
+}
+
+// *** icons ***
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 48;
+  font-size: font-size(font-size-small);
+  vertical-align: middle;
+}
+
+.title-icon {
+  display: inline-block;
+  font-size: font-size(font-size-very-small);
+  padding-bottom: 0.5rem;
+  padding-right: 0.4rem;
+}
+
+.stop-icon {
+  color: #aac7ff;
+  font-variation-settings: "FILL" 1, "wght" 100, "GRAD" 0, "opsz" 48;
+  padding: 0.3rem;
+}
+
+.circle-icon {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: #2d5da8;
+  padding-bottom: 0.5rem;
+}
+
+.star-icon {
+  color: #6490de;
+  font-size: font-size(font-size-very-small);
+  vertical-align: top;
+}
+
+.field-icon {
+  color: #00000079;
+  font-size: font-size(font-size-small);
+}
+
+// ** Tags
+.tags {
+  font-size: font-size(font-size-very-small);
+  padding: 0 1rem;
+  border-radius: 50px;
+  height: 23px;
+}
+
+.tag-green {
+  color: #118844;
+  background-color: #ddffee;
+}
+
+.tag-red {
+  color: #ba1b1b;
+  background-color: #ffdad4;
+}
+
+.error {
+  color: #b3261e;
+}
+
+.correct {
+  color: #118844;
+}

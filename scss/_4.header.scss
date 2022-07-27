@@ -1,0 +1,42 @@
+.header {
+  &-user {
+    display: flex;
+    align-items: center;
+    &-img {
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+
+      img {
+        width: 45px;
+      }
+    }
+
+    &-name {
+      padding-left: 6px;
+      font-size: font-size(font-size-regular);
+    }
+  }
+
+  &-tags {
+    display: flex;
+    gap: 10px;
+    padding-left: 6px;
+  }
+  input[type="text"] {
+    width: 65px;
+    box-sizing: border-box;
+    border: none;
+  }
+  input[type="text"]:focus {
+    outline: none !important;
+  }
+
+  &-status {
+    padding: 10px 6px;
+    font-size: font-size(font-size-small);
+  }
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../skyz/style.css" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-user">
+          <div class="header-user-img">
+            <img src="/imgs/avatar.jpg" alt="avatar" />
+          </div>
+
+          <div class="header-user-name">Mr. bob Herbert Wilde junour</div>
+        </div>
+        <div class="header-tags">
+          <div class="tags tag-green">list 50</div>
+          <div class="tags tag-red">VIP</div>
+          <div class="add-tag">
+            <input
+              type="text"
+              placeholder="Type..."
+              class="tags header-input"
+            />
+            <span class="material-symbols-outlined field-icon"> add </span>
+          </div>
+        </div>
+        <div class="header-status">
+          <span class="material-symbols-outlined circle-icon"> circle </span>
+          Active
+          <span class="material-symbols-outlined stop-icon"> stop </span> last
+          31/3
+        </div>
+      </header>
+
+      <div class="fields">
+        <div class="field">
+          <span class="material-symbols-outlined title-icon"> badge </span>
+          <span class="clsImpFieldTitleRW title"> details </span>
+
+          <div class="para">
+            <nobr
+              ><span class="label">Name</span>
+              <span>Mr. bob Herbert Wilde junour</span></nobr
+            >
+            <span class="material-symbols-outlined stop-icon"> stop </span>
+            <nobr><span class="label">ID</span> <span>056031853</span></nobr>
+            <span class="material-symbols-outlined stop-icon"> stop </span>
+            <nobr><span class="label">BirthDate</span> <span>12/1</span></nobr>
+          </div>
+        </div>
+
+        <div class="field">
+          <span class="material-symbols-outlined title-icon"> share </span>
+
+          <span class="clsImpFieldTitleRW title"> belonging </span>
+
+          <div class="para">
+            <nobr
+              ><span class="label">Classification</span>
+              <span>Sales</span>
+              <span>|</span>
+              <span>Lecturer</span>
+            </nobr>
+            <!-- <span class="material-symbols-outlined stop-icon"> stop </span> -->
+          </div>
+        </div>
+
+        <div class="field">
+          <span class="material-symbols-outlined title-icon">
+            settings_input_antenna
+          </span>
+
+          <span class="clsImpFieldTitleRW title"> links </span>
+
+          <div class="para">
+            <nobr
+              ><span class="label">Organisation</span>
+              <span>Figma</span>
+            </nobr>
+            <span class="material-symbols-outlined stop-icon"> stop </span>
+            <nobr
+              ><span class="label"> Main </span>
+              <span>02303230</span>
+            </nobr>
+          </div>
+        </div>
+      </div>
+
+      <div class="debit">
+        <div class="debit-header">
+          <div class="title">
+            <span class="material-symbols-outlined title-icon">
+              account_balance_wallet
+            </span>
+            DEBIT PLAN
+          </div>
+          <div class="title">
+            12/12/2022
+            <span class="material-symbols-outlined title-icon">
+              fiber_smart_record
+            </span>
+            <span class="material-symbols-outlined title-icon">
+              expand_more
+            </span>
+          </div>
+        </div>
+
+        <div class="debit-slider" id="tabs">
+          <ul class="debit-slider--title">
+            <li><a class="link active-link" href="#tabs-1">DEFINITIONS</a></li>
+            <li><a class="link" href="#tabs-2">PAYMENTS</a></li>
+            <li><a class="link" href="#tabs-3">CURRENCY</a></li>
+          </ul>
+
+          <div class="debit-slider--content" id="tabs-1">
+            <div class="debit-slider--content--title title">
+              <span class="material-symbols-outlined title-icon">
+                price_change
+              </span>
+              PAMYMENT
+            </div>
+
+            <div class="fields-section">
+              <div class="field-container">
+                <div class="label-container">
+                  <div class="field-icon-container">
+                    <span
+                      class="material-symbols-outlined field-icon label-icon"
+                    >
+                      account_balance_wallet
+                    </span>
+                  </div>
+                  <div class="label-text-container">
+                    <label class="label"> Type of receipt </label>
+                  </div>
+                  <div class="rquired">*</div>
+                </div>
+
+                <div class="input-container">
+                  <input
+                    type="text"
+                    class="input"
+                    placeholder="Bank transfer"
+                  />
+                  <!-- 
+                    <div class="field-icon-container">
+                      <span
+                        class="material-symbols-outlined delete-icon field-icon"
+                      >
+                        close
+                      </span>
+                    </div> -->
+
+                  <div class="input-right">
+                    <div class="field-type">work</div>
+                    <div class="field-icon-container">
+                      <span
+                        class="material-symbols-outlined collapse-icon field-icon"
+                      >
+                        expand_more
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="message error">
+                Write your completion/error message here!
+              </div>
+            </div>
+          </div>
+          <div class="debit-slider--content" id="tabs-2">
+            <div class="debit-slider--content--title title">
+              <span class="material-symbols-outlined title-icon">
+                price_change
+              </span>
+              PAMYMENT
+            </div>
+          </div>
+          <div class="debit-slider--content" id="tabs-3">
+            <div class="debit-slider--content--title title">
+              <span class="material-symbols-outlined title-icon">
+                attach_money
+              </span>
+              Currency
+            </div>
+
+            <div class="fields-section">
+              <div class="field-container">
+                <div class="label-container">
+                  <div class="label-text-container">
+                    <label class="label"> Currency </label>
+                  </div>
+                </div>
+
+                <div class="input-container">
+                  <input type="text" class="input" placeholder="$" />
+
+                  <div class="input-right">
+                    <div class="field-type">work</div>
+                    <div class="field-icon-container">
+                      <span
+                        class="material-symbols-outlined collapse-icon field-icon"
+                      >
+                        expand_more
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+.debit {
+  margin-top: 4rem;
+  background-color: #fff;
+  padding: 10px;
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-slider {
+    &--title {
+      display: flex;
+      gap: 20px;
+      padding-bottom: 2rem;
+      li {
+        font-size: font-size(font-size-small);
+        font-weight: font-weight(font-weight-medium);
+      }
+    }
+    &--content {
+      .message {
+        font-size: font-size(font-size-small);
+      }
+    }
+  }
+}
+
+.active-link {
+  color: #b58392 !important;
+}
