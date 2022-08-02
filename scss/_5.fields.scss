@@ -19,8 +19,9 @@
 
 .field-icon-container {
   display: flex;
-  width: 30px;
   justify-content: center;
+  width: 30px;
+  align-items: center;
 }
 .title {
   font-size: font-size(font-size-very-small);
@@ -33,40 +34,6 @@
   background-color: #fff;
   padding: 10px;
   border-radius: 4px;
-}
-
-.star-icon-container {
-  margin: 0 0 5px 0;
-}
-
-.label {
-  color: #705574;
-}
-
-////////////////
-fields-row {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  padding-top: 1rem;
-  gap: 10px;
-}
-
-.field-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  width: 60rem;
-
-  border: 1px solid #f4eff4;
-  border-radius: 4px;
-  transition: ease-in-out 0.2s;
-}
-
-.field-icon-container {
-  display: flex;
-  width: 30px;
-  justify-content: center;
 }
 
 .star-icon-container {
@@ -88,6 +55,19 @@ fields-row {
 .label {
   font-size: font-size(font-size-small);
   padding: 0 0.5rem;
+}
+
+////////////////
+fields-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 1rem;
+  gap: 10px;
+}
+
+.star-icon-container {
+  margin: 0 0 5px 0;
 }
 
 .input-container {

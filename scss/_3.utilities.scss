@@ -63,6 +63,10 @@ a:visited {
   font-size: font-size(font-size-small);
 }
 
+.fill-circle {
+  font-variation-settings: "FILL" 1;
+}
+
 // ** Tags
 .tags {
   font-size: font-size(font-size-very-small);
@@ -79,6 +83,14 @@ a:visited {
 .tag-red {
   color: #ba1b1b;
   background-color: #ffdad4;
+}
+
+.tag-purple {
+  background-color: #eaddff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 0;
 }
 
 .error {
